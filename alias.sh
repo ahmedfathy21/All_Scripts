@@ -1,4 +1,5 @@
 #!/bin/bash
+#set -x
 alias_name=$(rofi -dmenu -p "Enter alias name:")
 command=$(rofi -dmenu -p "Enter command for alias:")
 
